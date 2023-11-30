@@ -1,9 +1,12 @@
 package com.ll.sbb;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
+import com.ll.sbb.answer.Answer;
+import com.ll.sbb.answer.AnswerRepository;
+import com.ll.sbb.question.Question;
+import com.ll.sbb.question.QuestionRepository;
 import org.springframework.transaction.annotation.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
